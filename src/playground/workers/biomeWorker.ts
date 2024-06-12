@@ -80,7 +80,7 @@ self.addEventListener("message", async (e) => {
 				quoteProperties,
 				lintRules,
 				enabledLinting,
-				trailingComma,
+				trailingCommas,
 				semicolons,
 				arrowParentheses,
 				bracketSpacing,
@@ -119,7 +119,7 @@ self.addEventListener("message", async (e) => {
 							quoteProperties === QuoteProperties.Preserve
 								? "preserve"
 								: "asNeeded",
-						trailingComma,
+						trailingCommas,
 						semicolons:
 							semicolons === Semicolons.Always ? "always" : "asNeeded",
 						arrowParentheses:
